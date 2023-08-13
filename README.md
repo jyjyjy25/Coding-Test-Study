@@ -1,5 +1,5 @@
 # Coding-Test Study
-코딩테스트 대비 알고리즘 스터디 (2023.08.12 ~ )
+코딩테스트 대비 알고리즘 스터디 (2023.08.13 ~ )
 
 </br>
 
@@ -12,14 +12,14 @@
 </br></br>
 
 ## :bulb: 진행 방식
-- 정기 스터디
-    `매주 일요일 22시`에 이번 주차에 진행한 내용에 대한 이야기를 나눈다.
+- 정기 스터디  
+  `매주 일요일 22시`에 이번 주차에 진행한 내용에 대한 이야기를 나눈다.
 - 캠 스터디
-    `매주 3회, 회당 최소 2시간씩` 디스코드 음성채널에 모여 화면 공유를 하며 스터디 관련 공부를 진행한다.
-- 교재
-    Do it! 알고리즘 코딩테스트 with Python
+  `매주 3회, 회당 최소 2시간씩` 디스코드 음성채널에 모여 화면 공유를 하며 스터디 관련 공부를 진행한다.
+- 교재  
+  Do it! 알고리즘 코딩테스트 with Python
 - 문제 풀이
-    1. Repository를 `fork`후, `clone`한다.(초기 1회시 진행)
+    1. Repository를 `fork`후, `clone`한다.(초기 1회시 진행)  
         새로운 주차 폴더가 생겼을 경우 clone이 아닌 `pull` 또는 `fetch`를 진행한다.
     2. fork한 저장소의 각 주차에 해당되는 문제 폴더에 소스 코드를 `push`한다.
     3. `매주 토요일 23:59:59`까지 자신의 브랜치로 `PR`을 제출한다.
@@ -32,7 +32,7 @@
 
 | 주차 | 알고리즘 유형 | 문제명 | 난이도 |
 | :---: | :---: | :---: | :---: |
-| Week 1 | 자료구조 | [숫자의 합 구하기](https://www.acmicpc.net/problem/2422)<br/> [평균 구하기](https://www.acmicpc.net/problem/2615)<br/> [구간 합 구하기 1](https://www.acmicpc.net/problem/1890)<br/> [구간 합 구하기 2](https://www.acmicpc.net/problem/9081)<br/> [나머지 합 구하기](https://www.acmicpc.net/problem/2468)<br/> [연속된 자연수의 합 구하기](https://www.acmicpc.net/problem/2468)<br/> [주몽의 명령](https://www.acmicpc.net/problem/2468)<br/> ['좋은 수' 구하기](https://www.acmicpc.net/problem/2468)<br/> [DNA 비밀번호](https://www.acmicpc.net/problem/2468)<br/> [최솟값 찾기 1](https://www.acmicpc.net/problem/2468)<br/> [스택으로 수열 만들기](https://www.acmicpc.net/problem/2468)<br/> [오큰수 구하기](https://www.acmicpc.net/problem/2468)<br/> [카드 게임](https://www.acmicpc.net/problem/2468)<br/> [절댓값 힙 구현하기](https://www.acmicpc.net/problem/2468)<br/> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> |
+| Week 1 | 자료구조 | [숫자의 합 구하기](https://www.acmicpc.net/problem/11720)<br/> [평균 구하기](https://www.acmicpc.net/problem/1546)<br/> [구간 합 구하기 1](https://www.acmicpc.net/problem/11659)<br/> [구간 합 구하기 2](https://www.acmicpc.net/problem/11660)<br/> [나머지 합 구하기](https://www.acmicpc.net/problem/10986)<br/> [연속된 자연수의 합 구하기](https://www.acmicpc.net/problem/2018)<br/> [주몽의 명령](https://www.acmicpc.net/problem/1940)<br/> ['좋은 수' 구하기](https://www.acmicpc.net/problem/1253)<br/> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/1.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/><br/> |
 
 <br />
 <br />
