@@ -5,7 +5,6 @@
 
 # How to
 
-
 # Code
 
 import sys

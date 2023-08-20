@@ -5,6 +5,7 @@
 
 # How to
 
+# max 함수를 이용해서 해결
 
 # Code
 
