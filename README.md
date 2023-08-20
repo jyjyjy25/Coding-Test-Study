@@ -6,10 +6,10 @@
 
 ## :family: 스터디 멤버
 
-| <a href="https://github.com/jyjyjy25"><img src="https://avatars.githubusercontent.com/jyjyjy25" width="150px;" alt=""> | <a href="https://github.com/Hyeseon00"><img src="https://avatars.githubusercontent.com/Hyeseon00" width="150px;" alt=""> | <a href="https://github.com/mi642"><img src="https://avatars.githubusercontent.com/mi642" width="150px;" alt=""> | <a href="https://github.com/j00j12i11"><img src="https://avatars.githubusercontent.com/j00j12i11" width="150px;" alt=""> | <a href="https://github.com/ariha1982"><img src="https://avatars.githubusercontent.com/ariha1982" width="150px;" alt=""> |
-| :--------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
-|                                     <span style="color:#0080FF">**김지윤**</span>                                      |                                      <span style="color:#0080FF">**유혜선**</span>                                       |                                  <span style="color:#0080FF">**이미라**</span>                                   |                                      <span style="color:#0080FF">**장지인**</span>                                       |                                      <span style="color:#0080FF">**정현조**</span>                                       |
-|         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>          |          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>           |      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>       |          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>           |          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>           |
+| <a href="https://github.com/jyjyjy25"><img src="https://avatars.githubusercontent.com/jyjyjy25" width="150px;" alt=""> | <a href="https://github.com/mi642"><img src="https://avatars.githubusercontent.com/mi642" width="150px;" alt=""> | <a href="https://github.com/j00j12i11"><img src="https://avatars.githubusercontent.com/j00j12i11" width="150px;" alt=""> | <a href="https://github.com/ariha1982"><img src="https://avatars.githubusercontent.com/ariha1982" width="150px;" alt=""> |
+| :--------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+|                                     <span style="color:#0080FF">**김지윤**</span>                                      |                                  <span style="color:#0080FF">**이미라**</span>                                   |                                      <span style="color:#0080FF">**장지인**</span>                                       |                                      <span style="color:#0080FF">**정현조**</span>                                       |
+|         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>          |      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>       |          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>           |          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>           |
 
 </br></br>
 
@@ -35,7 +35,8 @@
 
 |  주차  | 알고리즘 유형 |                                                                                                                                                                                                                                                       문제명                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                           난이도                                                                                                                                                                                                                                                                                                                                                           |
 | :----: | :-----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Week 1 |   자료구조    | [숫자의 합 구하기](https://www.acmicpc.net/problem/11720)<br/> [평균 구하기](https://www.acmicpc.net/problem/1546)<br/> [구간 합 구하기 1](https://www.acmicpc.net/problem/11659)<br/> [구간 합 구하기 2](https://www.acmicpc.net/problem/11660)<br/> [나머지 합 구하기](https://www.acmicpc.net/problem/10986)<br/> [연속된 자연수의 합 구하기](https://www.acmicpc.net/problem/2018)<br/> [주몽의 명령](https://www.acmicpc.net/problem/1940)<br/> ['좋은 수' 구하기](https://www.acmicpc.net/problem/1253)<br/> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/1.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/><br/> |
+| week 1 |   자료구조    | [숫자의 합 구하기](https://www.acmicpc.net/problem/11720)<br/> [평균 구하기](https://www.acmicpc.net/problem/1546)<br/> [구간 합 구하기 1](https://www.acmicpc.net/problem/11659)<br/> [구간 합 구하기 2](https://www.acmicpc.net/problem/11660)<br/> [나머지 합 구하기](https://www.acmicpc.net/problem/10986)<br/> [연속된 자연수의 합 구하기](https://www.acmicpc.net/problem/2018)<br/> [주몽의 명령](https://www.acmicpc.net/problem/1940)<br/> ['좋은 수' 구하기](https://www.acmicpc.net/problem/1253)<br/> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/1.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/><br/> |
+| week 2 |   자료구조    | [DNA 비밀번호](https://www.acmicpc.net/problem/11720)<br/> [최솟값 찾기 1](https://www.acmicpc.net/problem/1546)<br/> [스택으로 수열 만들기](https://www.acmicpc.net/problem/11659)<br/> [오큰수 구하기](https://www.acmicpc.net/problem/11660)<br/> [카드 게임](https://www.acmicpc.net/problem/10986)<br/> [절댓값 힙 구현하기](https://www.acmicpc.net/problem/2018)<br/> | <img height="20px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/16.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/><br/> <img height="20px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/><br/> |
 
 <br />
 <br />
@@ -94,7 +95,7 @@ body(optional)
 
 - 내용
   - 기본적으로는 자유롭게 작성하기
-  - 느낀점, 체감 난이도(쉬웠다, 어려웠다 등등..), 못 푼 문제(결국 답을 찾아본..), 다시 풀어볼 문제, 설명이 필요한 문제 등등
+  - 느낀점, 체감 난이도(쉬웠다, 어려웠다 등등..), 못 푼 문제(결국 답을 찾아본..), 다시 풀어볼 문제, 설명이 필요한 문제 등
   - 문제를 풀면서 알게된 함수, 로직, 독특한 방법 등 기록 남기기
   - 추후 동일 알고리즘을 접할 시 도움이 될 자신만의 회고라고 생각하기
   - 다른 사람에게도 참고가 되도록 작성하기
@@ -115,7 +116,7 @@ body(optional)
 
 #### 주의사항
 
-- 오픈 커뮤니케이션을 지향한다.
+- 오픈 커뮤니케이션을 지향한다
 - 자유롭게 의견을 제시한다.
   - 잘했다고 생각하는 부분 칭찬하기
   - 왜 이렇게 풀었는지 궁금한 부분 질문하기
@@ -128,15 +129,18 @@ body(optional)
 
 ```bash
 ├── week1
-│   ├── 숫자의 합 구하기
-│   │   ├── 김하다.py
-│   │   └── 김두리.py
-│   └── 평균 구하기
-│       ├── 김하다.py
-│       └── 김두리.py
+│   ├── 03-1 배열과 리스트
+│   |   ├── 001 숫자의 합 구하기
+│   │   │   ├── 김하나.py
+│   │   │   └── 김두리.py
+│   |   ├── 002 평균 구하기
+│   │   │   ├── 김하나.py
+│   │   │   └── 김두리.py
+│   ├── 03-2 구간 합
+│   |   ├── 003 구간 합 구하기 1
+│   |   └── 004 구간 합 구하기 2
 ├── ...
 ├── weekN
-├── .gitignore
 ├── file_format.py
 └── README.md
 ```
