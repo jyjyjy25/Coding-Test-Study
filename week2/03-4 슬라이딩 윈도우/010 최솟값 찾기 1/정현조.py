@@ -16,7 +16,7 @@ aList = list(map(int, sys.stdin.readline().strip().split(' ')))
 
 minDeque = deque()
 for i in range(N):
-    while minDeque and minDeque[-1][0] > aList[i] : #이 부분이 잘 이해가 안되는듯듯
+    while minDeque and minDeque[-1][0] > aList[i] : #이 부분이 잘 이해가 안되는듯
         minDeque.pop()
     minDeque.append((aList[i], i))
     if minDeque[0][1] <= i-L:

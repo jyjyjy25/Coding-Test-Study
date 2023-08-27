@@ -13,6 +13,7 @@
 # 10%에서 시간초과 뜸
 # 교재 코드랑 거의 유사한거 같은데 어디서 시간을 잡아먹는건지..?
 # count()가 좀 오래걸리나
+# [수정] 쓸데 없는 count() 조건문 지웠더니 시간초과 안남!!
 
 # Code
 import sys
@@ -23,11 +24,10 @@ stack = []
 num = 0
 answer = ""
 for i in range(n):
-    if stack.count(order[i]) == 0:
-        for j in range(order[i]-num):
-            num += 1
-            stack.append(num)
-            answer += "+\n"
+    for j in range(order[i]-num):
+        num += 1
+        stack.append(num)
+        answer += "+\n"
     if order[i] < stack[-1]:
         print("NO")
         break
@@ -40,4 +40,4 @@ if len(stack)==0:
 
 
 
-## 메모리:  KB, 시간:  ms
+## 메모리:  36280KB, 시간:  4748ms
