@@ -1,70 +1,44 @@
-# 착오로 진도에 맞지 않는 문제를 풀어서 추후에 수정할 예정
-
-# BOJ_10999_구간 합 구하기 2
+# BOJ_11660_구간 합 구하기 2
 # 난이도: 실버1
-# 풀이 날짜: 23.08.16
-# 풀이 시간:
+# 풀이 날짜: 23.08.23
+# 풀이 시간: 42분
 
 # How to
-
-# - 펜윅 트리 사용시 런타임 에러 발생
-# - 세그먼트 트리를 이용해 해결
+"""
+1. 입력받은 데이터를 리스트에 저장하기
+2. 합 배열 저장하기
+3. 입력 구간에 대한 결과 계산 및 출력
+- 런타임 에러가 너무 많이 났음
+- 배열을 0부터 하는 방법도 있었음(교재 참고)
+    array = []
+    for i in range(n):
+        row = [0] + [int(x) for x in input().split()]
+        array.append(row)
+"""
 
 # Code
 
-import sys
+# 에러가 나지 않는 코드
 
-def init_tree(arr, tree, start, end, node):
-    if start == end:
-        tree[node] = arr[start]
-    else:
-        mid = (start + end) // 2
-        init_tree(arr, tree, start, mid, node * 2)
-        init_tree(arr, tree, mid + 1, end, node * 2 + 1)
-        tree[node] = tree[node * 2] + tree[node * 2 + 1]
+import sys 
+input = sys.stdin.readline
 
+n, m = map(int, input().split())
 
-def update_tree(tree, lazy, start, end, node, idx_start, idx_end, diff):
-    update_lazy(tree, lazy, start, end, node)
+array = []
+for _ in range(n):
+    array.append(list(map(int,input().split())))
 
-    if idx_start > end or start > idx_end:
-        return
-    
-    if start >= idx_start and idx_end >= end:
-        tree[node] += (end - start + 1) * diff
-        if start != end:
-            lazy[node * 2] += diff
-            lazy[node * 2 + 1] += diff
-        return
-    
-    mid = (start + end) // 2
-    update_tree(tree, lazy, start, mid, node * 2, idx_start, idx_end, diff)
-    update_tree(tree, lazy, mid + 1, end, node * 2 + 1, idx_start, idx_end, diff)
-    tree[node] = tree[node * 2] + tree[node * 2 + 1]
+hap_list = [[0] * (n + 1) for _ in range(n + 1)]
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        hap_list[i][j] = hap_list[i][j - 1] + hap_list[i - 1][j] - hap_list[i - 1][j - 1] + array[i - 1][j - 1]
+
+for _ in range(m):
+    x1, y1, x2, y2 = map(int,input().split())
+
+    result = hap_list[x2][y2] - hap_list[x2][y1 - 1] - hap_list[x1 - 1][y2] + hap_list[x1 - 1][y1 - 1]
+    print(result)
 
 
-def update_lazy(tree, lazy, start, end, node):
-    if lazy[node] != 0:
-        tree[node] += (end - start + 1) * lazy[node]
-      
-        if start != end:
-            lazy[node * 2] += lazy[node]
-            lazy[node * 2 + 1] += lazy[node]
-      
-        lazy[node] = 0
-
-
-def query_tree(tree, lazy, start, end, node, left, right):
-    update_lazy(tree, lazy, start, end, node)
-
-    if left > end or start > right:
-        return 0
-    
-    if start >= left and right >= end:
-        return tree[node]
-    
-    mid = (start + end) // 2
-    return query_tree(tree, lazy, start, mid, node * 2, left, right) + query_tree(tree, lazy, mid + 1, end, node * 2 + 1, left, right)
-
-
-## 메모리: 188528 KB,  시간: 1976 ms
+## 메모리: 106008 KB,  시간: 1080 ms
