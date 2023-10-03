@@ -5,7 +5,8 @@
 
 # How to
 # 1st try는 문제 있는 코드를 파이썬으로만 짰다. N이 너무 커서 당연히 시간초과
-# 2nd는 책을 일부만 참고해서 내부 for문을 안 쓰는 방법을 찾아보려고 했는데 도무지 생각이 안남
+# 2nd는 중첩 for문을 전부 돌지 않는 방법을 찾아보려고 했는데
+# 중첩 for문을 한번에 탈출할 방법이 없어서 실패
 # 결국 책에서 제시한 아이디어를 참고해서 코드를 짬
 
 
@@ -40,6 +41,19 @@ for i in range(n):
     if changed == False:
         print(i+1)
         break
+'''
+'''
+[2nd try]
+import sys
+n = int(sys.stdin.readline())
+numList = [int(sys.stdin.readline()) for i in range(n)]
+
+for i in range(n):
+    for j in range(n-1):
+        if j == n-2 and numList[j] <= numList[j+1]:
+            #여기서 한번에 모든 for문을 탈출할 방법이 없음
+        if numList[j] > numList[j+1]:
+            numList[j], numList[j+1] = numList[j+1], numList[j]
 '''
         
 
