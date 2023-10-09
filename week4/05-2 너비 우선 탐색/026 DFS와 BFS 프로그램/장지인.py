@@ -43,8 +43,9 @@ def BFS(n):
 
 N, M, V = map(int, input().split())
 
-matrix = [[] for _ in range(M+1)]
-visited = [ False for _ in range(M+1)]
+matrix = [[] for _ in range(N+1)]
+visited = [ False for _ in range(N+1)]
+queue = deque()
 
 for _ in range(M):
     u, v = map(int, input().split())
@@ -56,38 +57,9 @@ for i in range(N+1):
 
 DFS(V)
 print()
-visited = [ False for _ in range(M+1)]
+visited = [ False for _ in range(N+1)]
 BFS(V)
 
 
 
-## 메모리:  KB, 시간:  ms
-
-# 두가지 버전의 BFS 함수들...
-# def BFS(n):
-#     global matrix, visited
-#     queue = deque()
-#     queue.append(n)
-#     visited[n] = True
-#     while queue:
-#         v = queue.popleft()
-#         print(v, end=" ")
-#         for i in matrix[v]:
-#             if not visited[i]:
-#                 visited[i] = True
-#                 queue.append(i)
-
-# def BFS(n):
-#     global matrix, visited, queue
-
-#     print(n, end=' ')
-#     visited[n] = True
-
-#     for v in matrix[n]:
-#         if not visited[v]:
-#             visited[v] = True
-#             queue.append(v)
-    
-#     if queue:
-#         e = queue.popleft()
-#         BFS(e)
+## 메모리: 34184 KB, 시간: 80 ms
