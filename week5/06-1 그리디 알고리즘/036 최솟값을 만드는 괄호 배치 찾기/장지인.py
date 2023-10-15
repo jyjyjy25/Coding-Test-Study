@@ -48,4 +48,4 @@ for a in n:
 print(ANS)
     
  
-## 메모리:  KB, 시간:  ms
+## 메모리: 31120 KB, 시간: 44 ms
